@@ -1,0 +1,26 @@
+:root {
+    /*main-variables*/
+    --main-font: 'Inter-Variable', sans-serif;
+    --accent-font: 'PressStart2P', fantasy;
+    --main-font-size: 18px;
+    --main-font-weight: 400;
+    --bold-font-weight: 700;
+    --bg-color: #FFFFFF;
+    --accent-color: #000;
+    --accent-color-transparent: rgb(0 0 0 / 60%);
+    --button-text-color: #FFF;
+    --favicon-color: #000;
+
+    /*gradient*/
+    --page-bg-image: url(../images/day.jpg);
+
+    /*общие анимации*/
+    --transform-time: 0.3s;
+    --transition-function: ease;
+
+    /*heart*/
+    --sparks-fill-color: #f00;
+    --contour-color: rgb(0 0 0);
+    --main-body-color: rgb(0 0 0);
+}
+

@@ -1,0 +1,72 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        /*main-variables*/
+        --main-font: 'Inter-Variable', sans-serif;
+        --accent-font: 'PressStart2P', fantasy;
+        --main-font-weight: 400;
+        --bold-font-weight: 700;
+        --bg-color: #FFF;
+        --accent-color: #000;
+        --accent-color-transparent: rgb(0 0 0 / 60%);
+        --button-text-color: #FFF;
+        --contour-color: #000;
+        --favicon-color: #000;
+
+        /*gradient*/
+        --page-bg-image: url(../images/day.jpg);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+    /*main-variables*/
+    --main-font: 'Inter-Variable', sans-serif;
+    --accent-font: 'PressStart2P', fantasy;
+    --main-font-weight: 465;
+    --bold-font-weight: 785;
+    --bg-color: #000;
+    --accent-color: #fc67d4;
+    --accent-color-transparent: #ffb3eb;
+    --button-text-color: #fc67d4;
+    --contour-color: #fc67d4;
+    --favicon-color: #730a57;
+
+    /*gradient*/
+    --page-bg-image: url(../images/night.jpg);
+      }
+    }
+
+
+:root.theme-light {
+    /*main-variables*/
+    --main-font: 'Inter-Variable', sans-serif;
+    --accent-font: 'PressStart2P', fantasy;
+    --main-font-weight: 400;
+    --bold-font-weight: 700;
+    --bg-color: #FFF;
+    --accent-color: #000;
+    --accent-color-transparent: rgb(0 0 0 / 60%);
+    --button-text-color: #FFF;
+    --contour-color: #000;
+    --favicon-color: #000;
+
+    /*gradient*/
+    --page-bg-image: url(../images/day.jpg);
+}
+
+:root.theme-dark {
+    /*main-variables*/
+    --main-font: 'Inter-Variable', sans-serif;
+    --accent-font: 'PressStart2P', fantasy;
+    --main-font-weight: 465;
+    --bold-font-weight: 785;
+    --bg-color: #000;
+    --accent-color: #fc67d4;
+    --accent-color-transparent: #ffb3eb;
+    --button-text-color: #fc67d4;
+    --contour-color: #fc67d4;
+    --favicon-color: #730a57;
+
+    /*gradient*/
+    --page-bg-image: url(../images/night.jpg);
+  }
